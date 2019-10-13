@@ -19,7 +19,7 @@ class Author
   end
 
   def post_count
-    @@all.sum {|a| a.posts}
+    @@all.sum {|a| a.posts.length}
   end
 
 end

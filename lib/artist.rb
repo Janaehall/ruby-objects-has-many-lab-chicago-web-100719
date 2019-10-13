@@ -23,6 +23,6 @@ class Artist
 
   def self.song_count
     self.all.sum {|a| a.songs.length}
-
+  end
 
 end
